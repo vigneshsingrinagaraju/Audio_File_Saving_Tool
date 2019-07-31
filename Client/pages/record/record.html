@@ -1,0 +1,29 @@
+<div class="row div-margin-top">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-6 col-sm-12 col-md-12 col-xs-12 div-padding">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-padding"><b>{{text}}</b></div>
+<p class="text-center">
+  <audio id=recordedAudio></audio>
+</p>
+<div id="audioimage" class="col-lg-12 col-sm-12 col-md-12 col-xs-12  text-center" ng-if="showimage">
+  <a href=""><img src="images/Nlyu9S.gif" alt="in" />
+  </a> 
+</div>
+<div  class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center button-margin-top">
+ 
+  <div  class="col-lg-3 col-sm-12 col-md-3 col-xs-12 button-margin">
+    <button id=startRecord ng-click="startRecording()" class="btn btn-md btn-primary ">Start Recording</button>
+  </div>
+  <div  class="col-lg-3 col-sm-12 col-md-3 col-xs-12 button-margin">
+    <button id=stopRecord ng-click="stopRecording()" class="btn btn-md btn-warning ">Stop Recording</button>
+  </div>
+  <div  class="col-lg-2 col-sm-12 col-md-3 col-xs-12 button-margin">
+   <button id=submitRecord ng-click="submit()" class="btn btn-md btn-success ">Submit</button>
+ </div>
+ <div  class="col-lg-2 col-sm-12 col-md-3 col-xs-12 button-margin" >
+   <button id=cancelRecord ng-click="cancelaudio()" class="btn btn-md btn-danger ">Cancel</button>
+ </div>
+</div>
+
+</div>
+</div>
